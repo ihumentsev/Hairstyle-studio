@@ -472,7 +472,7 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/logohire.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
@@ -962,10 +962,11 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: var(--cleniq-primary);
-  padding: 30.5px 35px;
+  padding: 10px;
+  /* padding: 30.5px 35px; */
 }
 .main-menu__logo a img{
-  width: 50px;
+  width: 80px;
 }
 
 .main-menu__search-cart-btn-nav-sidebar {
