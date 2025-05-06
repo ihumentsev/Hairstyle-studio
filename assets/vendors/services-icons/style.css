@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9tb6rg');
+  src:  url('fonts/icomoon.eot?9tb6rg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9tb6rg') format('truetype'),
+    url('fonts/icomoon.woff?9tb6rg') format('woff'),
+    url('fonts/icomoon.svg?9tb6rg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rating:before {
+  content: "\e900";
+}
+.icon-settings-1:before {
+  content: "\e901";
+}
+.icon-settings:before {
+  content: "\e902";
+}
+.icon-star:before {
+  content: "\e903";
+}
+.icon-hand-shake:before {
+  content: "\e904";
+}
+.icon-dashboard:before {
+  content: "\e905";
+}
+.icon-headset:before {
+  content: "\e906";
+}
+.icon-medal:before {
+  content: "\e907";
+}
+.icon-customer:before {
+  content: "\e908";
+}
+.icon-favorite-1:before {
+  content: "\e909";
+}
+.icon-love-letter:before {
+  content: "\e90a";
+}
+.icon-loupe:before {
+  content: "\e90b";
+}
+.icon-target:before {
+  content: "\e90c";
+}
+.icon-review-1:before {
+  content: "\e90d";
+}
+.icon-megaphone:before {
+  content: "\e90e";
+}
+.icon-quality:before {
+  content: "\e90f";
+}
+.icon-group:before {
+  content: "\e910";
+}
+.icon-like:before {
+  content: "\e911";
+}
+.icon-clipboard:before {
+  content: "\e912";
+}
+.icon-review:before {
+  content: "\e913";
+}
+.icon-smartphone:before {
+  content: "\e914";
+}
+.icon-telephone:before {
+  content: "\e915";
+}
+.icon-stamp:before {
+  content: "\e916";
+}
+.icon-eye:before {
+  content: "\e917";
+}
+.icon-favorite:before {
+  content: "\e918";
+}
+.icon-telemarketer:before {
+  content: "\e919";
+}
+.icon-placeholder:before {
+  content: "\e91a";
+}
+.icon-conversation:before {
+  content: "\e91b";
+}
+.icon-video-call:before {
+  content: "\e91c";
+}
+.icon-user:before {
+  content: "\e91d";
+}
