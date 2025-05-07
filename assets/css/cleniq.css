@@ -25,6 +25,7 @@
   --cleniq-white: #ffffff;
   --cleniq-white-rgb: 255, 255, 255;
   --cleniq-base: #5b9b37;
+  /* --cleniq-base: #2F6637; */
   --cleniq-base-rgb: 91, 155, 55;
   --cleniq-black: #121212;
   --cleniq-black-rgb: 18, 18, 18;
@@ -472,10 +473,10 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/logohire.png);
+  background-image: url(../images/logohire.svg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 60px auto;
+  background-size: 140px auto;
   width: 100%;
   height: 100%;
 }
@@ -642,7 +643,7 @@ ul {
   background-color: #000000;
 }
 
-.xs-sidebar-group .content-inner .logo {
+.xs-sidebar-group .content-inner .logo img {
   position: relative;
   max-width: 172px;
   width: 100%;
@@ -1028,6 +1029,7 @@ ul {
 .main-menu__nav-sidebar-icon {
   position: relative;
   display: block;
+  margin-left: 25px;
 }
 
 .main-menu__nav-sidebar-icon .navSidebar-button {
@@ -2087,6 +2089,10 @@ ul {
   padding-top: 24.5px;
   padding-bottom: 24.5px;
   clip-path: polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%, 0% 50%);
+}
+.main-menu-three__logo a{
+  display: flex;
+  align-items: flex-end;
 }
 
 .main-menu-three__contact-list {
@@ -6545,13 +6551,14 @@ ul {
 
 .footer-widget__logo a {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: flex-end;
 }
 
-.footer-widget__logo a {
+/* .footer-widget__logo a {
   position: relative;
   display: block;
-}
+} */
 
 .footer-widget__logo a>img {
   width: auto;
@@ -9737,6 +9744,7 @@ Portfolio Two
 .services-three__img-box {
   position: relative;
   display: block;
+ 
 }
 
 .services-three__img {
@@ -9744,6 +9752,8 @@ Portfolio Two
   display: block;
   overflow: hidden;
   z-index: 1;
+  max-width: 270px;
+    max-height: 180px;
 }
 
 .services-three__img::before {
@@ -9766,6 +9776,7 @@ Portfolio Two
 
 .services-three__img img {
   width: 100%;
+  height: 100%;
   transform: scale3d(1, 1, 1);
   transition: transform 1s ease-in-out;
 }
@@ -9884,6 +9895,7 @@ Portfolio Two
 
 .about-three__img img {
   width: 100%;
+  height: 100%;
   border-radius: 50%;
 }
 
@@ -9913,6 +9925,7 @@ Portfolio Two
   background-size: cover;
   background-position: center;
   z-index: -1;
+  
 }
 
 .about-three__experience-box::before {
@@ -10084,6 +10097,7 @@ Portfolio Two
 .about-three__btn-and-client-info {
   position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -10943,6 +10957,8 @@ Portfolio Three
 
 .faq-one__img img {
   width: 100%;
+  height: 700px;
+  object-fit: cover;
 }
 
 .faq-one__img:before {
@@ -11447,6 +11463,8 @@ Portfolio Three
   position: relative;
   display: block;
   width: 115px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .testimonial-three__client-img img {
@@ -11816,6 +11834,7 @@ Portfolio Three
   display: block;
   overflow: hidden;
   z-index: 1;
+  max-height: 300px;
 }
 
 .blog-three__img::before {
@@ -12764,10 +12783,13 @@ Portfolio Three
 .blog-standard__img {
   position: relative;
   display: block;
+  height: 300px;
 }
 
 .blog-standard__img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .blog-standard__date {
