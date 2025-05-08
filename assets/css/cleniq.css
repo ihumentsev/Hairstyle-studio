@@ -1468,6 +1468,13 @@ ul {
   display: -ms-flexbox;
   display: flex;
 }
+.mobile-nav__content .logo-box a{
+  display: flex;
+  align-items: flex-end;
+}
+.mobile-nav__content .logo-box img{
+  width: 60px;
+}
 
 .mobile-nav__close {
   position: absolute;
@@ -3292,7 +3299,7 @@ ul {
   overflow: hidden;
   background-color: var(--cleniq-white);
   z-index: 1;
-  height: 300px;
+  height: 360px;
 }
 
 .why-choose-one__title {
@@ -3823,10 +3830,13 @@ ul {
   position: relative;
   display: block;
   z-index: 1;
+  width: 100%;
+  
 }
 
 .services-one__img img {
   width: 100%;
+
 }
 
 .services-one__shape-1 {
@@ -3834,7 +3844,7 @@ ul {
   top: 120px;
   left: -130px;
   width: 491px;
-  height: 585px;
+  height: 800px;
   background-color: var(--cleniq-base);
   clip-path: polygon(0 0, 100% 16%, 100% 86%, 0% 100%);
   z-index: -1;
@@ -3890,7 +3900,7 @@ ul {
 .services-one__services-box {
   position: relative;
   display: block;
-  padding: 70px 52px 0px;
+  padding: 70px 32px 70px 32px;
   padding-left: 80px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.05);
@@ -3911,7 +3921,7 @@ ul {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
   width: 100%;
-  padding-left: 22px;
+  padding-left: 12px;
   padding-right: 22px;
   margin-bottom: 54px;
 }
@@ -10324,7 +10334,9 @@ Portfolio Two
 }
 
 .services-four__img img {
-  width: 100%;
+  width: 360px;
+  height: 252px;
+  object-fit: cover;
 }
 
 .services-four__count-box {
@@ -13330,10 +13342,14 @@ Portfolio Three
   position: relative;
   display: block;
   margin-left: 30px;
+  max-width: 240px;
+  height: 270px;
 }
 
 .get-in-touch__img img {
-  width: 1005;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
