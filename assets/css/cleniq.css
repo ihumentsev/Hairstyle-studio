@@ -251,6 +251,7 @@ ul {
   transition: 0.5s;
   z-index: 1;
   gap: 15px;
+  border: none;
 }
 
 .thm-btn span {
