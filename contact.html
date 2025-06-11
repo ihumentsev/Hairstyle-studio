@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
     <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/site-icons/style.css">
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/cleniq.css" />
@@ -59,54 +60,6 @@
     <!-- /.preloader -->
 
 
-    <!-- Start sidebar widget content -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                    <div class="sidebar-info-contents">
-                        <div class="content-inner">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-4.png" alt="" /></a>
-                            </div>
-                            <div class="content-box">
-                                <h4>About Us</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut
-                                    labore et magna aliqua. Ut enim ad minim veniam laboris.</p>
-                            </div>
-                            <div class="form-inner">
-                                <h4>Get a free quote</h4>
-                                <form action="assets/inc/sendemail.php" class="contact-form-validated"
-                                    novalidate="novalidate">
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="Name" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" placeholder="Message..."></textarea>
-                                    </div>
-                                    <div class="form-group message-btn">
-                                        <button type="submit" class="thm-btn form-inner__btn">Submit Now <span></span>
-                                            <span></span> <span></span> <span></span> <span></span> </button>
-                                    </div>
-                                </form>
-                                <div class="result"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End sidebar widget content -->
-
-
     <div class="page-wrapper">
         <header class="main-header-three">
             <div class="main-menu-three__top">
@@ -126,9 +79,11 @@
                                 <i class="icon-pin-1"></i>
                             </div>
                             <div class="content">
-                                <h5>Наші адреси</h5>
-                                <p>Святопетрівське, бул. Тараса Шевченко 8</p>
-                                <p>Черкаси, ТРЦ PIONEER бул.Шевченко,274</p>
+                                <h5>Наша адреса</h5>
+                                <p>м. Черкаси,
+                                трц Pioneer, <br /> б-р Т. Шевченка,
+                                274, 2 поверх</p>
+                               
                             </div>
                         </li>
                         <li>
@@ -137,7 +92,7 @@
                             </div>
                             <div class="content">
                                 <h5>Підтримка</h5>
-                                <p><a href="mailto:infor@gmail.com">info@kids-che.com</a></p>
+                                <p><a href="mailto:infor@gmail.com">info@kids-che.com</a><br /><br /></p>
                             </div>
                         </li>
                         <li>
@@ -145,8 +100,8 @@
                                 <i class="icon-phone-call-1"></i>
                             </div>
                             <div class="content">
-                                <h5>Безкоштовно по Україні</h5>
-                                <p><a href="tel:023453323252">02-345-332-3252</a></p>
+                                <h5>Зробити дзвінок</h5>
+                                <p><a href="tel:+380638869747">+38(063) 886 - 97 - 47</a><br /><br /></p>
                             </div>
                         </li>
                     </ul>
@@ -163,41 +118,20 @@
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
                                 <li>
-                                    <a href="index.html">Головна</a>
-                                    <!-- <ul>
-                                                <li><a href="index.html">Home One</a></li>
-                                                <li><a href="index2.html">Home Two</a></li>
-                                                <li><a href="index3.html">Home Three</a></li>
-                                                <li class="dropdown">
-                                                    <a href="#">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header One</a></li>
-                                                        <li><a href="index2.html">Header Two</a></li>
-                                                        <li><a href="index3.html">Header Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a href="#">One Page Styles</a>
-                                                    <ul>
-                                                        <li><a href="index-one-page.html">One Page Styles One</a></li>
-                                                        <li><a href="index2-one-page.html">One Page Styles Two</a></li>
-                                                        <li><a href="index3-one-page.html">One Page Styles Three</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul> -->
+                                    <a href="/">Головна</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Додатково</a>
                                     <ul>
-                                        <li><a href="about.html">Про нас</a></li>
-                                        <li><a href="team.html">Наша команда</a></li>
+                                        <li><a href="/about">Про нас</a></li>
+                                        <li><a href="/team">Наша команда</a></li>
                                         <!-- <li><a href="team-details.html">Team Details</a></li> -->
-                                        <li><a href="projects.html">Портфоліо</a></li>
-                                        <li><a href="appoinment.html">Запис на прийом</a></li>
+                                        <li><a href="/projects">Портфоліо</a></li>
+                                        <!-- <li><a href="appoinment.html">Запис на прийом</a></li> -->
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="services.html">Полслуги</a>
+                                    <a href="/services">Полслуги</a>
                                     <ul>
                                         <li><a href="#">Класична стрижка</a></li>
                                         <li><a href="#">Модельна стрижка для хлопчиків</a></li>
@@ -207,24 +141,22 @@
                                         <li><a href="#">Виголювання малюнків</a></li>
                                     </ul>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="blog-standard.html">Блог</a>
-                                    <!-- <ul>
-                                                        <li><a href="blog-standard.html">Blog</a></li>
-                                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                                    </ul> -->
-                                </li>
+                                   
+                                </li> -->
                                 <li>
-                                    <a href="contact.html">Контакти</a>
+                                    <a href="/contact">Контакти</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="main-menu-three__right">
                             <div class="main-menu-three__social">
-                                <a href="#"><i class="icon-dribble-1"></i></a>
-                                <a href="#"><i class="icon-facebook"></i></a>
-                                <a href="#"><i class="icon-pinterest"></i></a>
-                                <a href="#"><i class="icon-twitter"></i></a>
+                                <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                                        class="icon-instagram"></span></a>
+                                <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                                        class="icon-facebook"></span></a>
+                                <a href="https://www.tiktok.com/@kids.che_?_t=ZP-8wqa6NUZFpW&_r=1"><span class="icon-tiktok"></span></a>
                             </div>
                             <div class="main-menu-three__shape-1">
                                 <img src="assets/images/shapes/main-menu-three-shape-1.png" alt="">
@@ -242,7 +174,7 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/hireslider_3.jpg);">
+            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/slider_1920x900_1.jpg);">
             </div>
             <div class="page-header__shape-1">
                 <img src="assets/images/shapes/page-header-shape-1.png" alt="">
@@ -252,7 +184,7 @@
                     <h2>Наші контакти</h2>
                     <div class="thm-breadcrumb__box">
                         <ul class="thm-breadcrumb list-unstyled">
-                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="/">Головна</a></li>
                             <li><span>-</span></li>
                             <li>Контакти</li>
                         </ul>
@@ -267,7 +199,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
-                        <div class="contact-page__left">
+                        <div class="contact-page__left" style="border: solid 1px rgba(0, 0, 0, 0.1);; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                             <div class="contact-page__contact-box">
                                 <h3 class="contact-page__contact-title">Приєднуйтесь до нас, щоб отримати безкоштовну
                                     <br> консультацію</h3>
@@ -291,11 +223,6 @@
                                                 <input type="text" name="number" placeholder="Номер телефону" required="">
                                             </div>
                                         </div>
-                                        <!-- <div class="col-xl-6">
-                                            <div class="contact-page__input-box">
-                                                <input type="text" name="company" placeholder="company">
-                                            </div>
-                                        </div> -->
                                         <div class="col-xl-12">
                                             <div class="contact-page__input-box text-message-box">
                                                 <textarea name="message" placeholder="Написати повідомлення"></textarea>
@@ -318,10 +245,10 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="contact-page__right">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.484611362912!2d32.06760051093091!3d49.43755707129729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b0bdd902bf3%3A0x2f5da1d3ef89774!2z0KLQoNCmIFBpb25lZXI!5e0!3m2!1suk!2spl!4v1746696229531!5m2!1suk!2spl"
-                                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10377.930652215357!2d32.05225055541992!3d49.43759389999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b007d391d89%3A0x6b1c000c58895661!2z0JTQuNGC0Y_Rh9CwINC_0LXRgNGD0LrQsNGA0L3RjyBLSURT!5e0!3m2!1suk!2spl!4v1749633399186!5m2!1suk!2spl"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -339,11 +266,10 @@
                                 <ul class="get-in-touch__list list-unstyled">
                                     <li>
                                         <div class="get-in-touch__icon">
-                                            <span class="icon-phone-call"></span>
+                                            <span class="icon-phone"></span>
                                         </div>
                                         <h3 class="get-in-touch__title">Подзвонити</h3>
-                                        <p>Київ<a href="tel:+233456789788"> +233 456 789 788</a></p>
-                                        <p>Черкаси<a href="tel:+5557890123"> +555-7890-123</a></p>
+                                        <p>Черкаси <br/><a href="tel:+380638869747"> +38(063) 886 - 97 - 47</a></p>
                                     </li>
                                     <li>
                                         <div class="get-in-touch__icon">
@@ -367,7 +293,7 @@
                     </div>
                     <div class="col-xl-3">
                         <div class="get-in-touch__img">
-                            <img src="assets/images/resources/curly-girl-smiles.jpg" alt="">
+                            <img src="assets/images/resources/process_340x245_2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -378,10 +304,11 @@
 
 
         <!--Site Footer Start-->
-        <footer class="site-footer site-footer-two">
+        <footer class="site-footer">
             <div class="site-footer__bg" style="background-image: url(assets/images/backgrounds/hireslider_2.jpg);">
             </div>
             <div class="site-footer__bg-shape float-bob-y">
+        
                 <img src="assets/images/shapes/site-footer-bg-shape.png" alt="">
             </div>
             <div class="site-footer__shape-1 float-bob-x">
@@ -407,34 +334,28 @@
                                             <span class="icon-envelope"></span>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                            <p><a href="mailto:info@kids-che.com.ua">info@kids-che.com.ua</a></p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <span class="icon-pin"></span>
+                                            <span class="icon-location"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Святопетрівське,<br> бул. Тараса Шевченко 8
+                                            <p>
+                                                <a href="https://maps.app.goo.gl/QrQZKYsdc8XezpLF6" target="_blank">м. Черкаси,
+                                                    трц Pioneer, <br /> б-р Т. Шевченка,
+                                                    274, 2 поверх
+                                                </a>
                                             </p>
         
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-pin"></span>
-                                        </div>
-                                        <div class="text">
-        
-                                            <p>Черкаси,<br> бул. Шевченко 237
-                                            </p>
                                         </div>
                                     </li>
                                 </ul>
                                 <div class="footer-widget__open-hour">
-                                    <h4 class="footer-widget__open-hour-title">Робочі години</h4>
-                                    <p class="footer-widget__open-hour-text">Пон – Суб: 8:00 до to 19:00
-                                        <br> Неділя: Вихідний
+                                    <h4 class="footer-widget__open-hour-title">Часи роботи</h4>
+                                    <p class="footer-widget__open-hour-text">Пон – Нед: 10:00 до 19:00
+                                        <!-- <br> Неділя: вихідний -->
                                     </p>
                                 </div>
                             </div>
@@ -447,36 +368,27 @@
                                 <div class="footer-widget__pages-box">
                                     <ul class="footer-widget__pages-list list-unstyled">
                                         <li>
-                                            <a href="about.html">Про нас</a>
+                                            <a href="/about">Про нас</a>
                                         </li>
                                         <li>
-                                            <a href="#">Наша команда</a>
+                                            <a href="/team">Наша команда</a>
                                         </li>
                                         <li>
                                             <a href="#">Ціни</a>
                                         </li>
                                         <li>
-                                            <a href="#">Галерея</a>
+                                            <a href="/projects">Галерея</a>
                                         </li>
-                                        <!-- <li>
-                                                                    <a href="about.html">404 Page</a>
-                                                                </li> -->
                                         <li>
-                                            <a href="#">Послуги</a>
+                                            <a href="/services">Послуги</a>
                                         </li>
                                     </ul>
                                     <ul class="footer-widget__pages-list footer-widget__pages-list-2 list-unstyled">
-                                        <!-- <li>
-                                                                    <a href="team.html">Membership</a>
-                                                                </li> -->
                                         <li>
-                                            <a href="#">Контакти</a>
+                                            <a href="/contacts">Контакти</a>
                                         </li>
-                                        <!-- <li>
-                                                                    <a href="about.html">Working Process</a>
-                                                                </li> -->
                                         <li>
-                                            <a href="about.html">Політика приватності</a>
+                                            <a href="#">Політика приватності</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -489,39 +401,52 @@
                                 </div>
                                 <ul class="footer-widget__instagram-list list-unstyled clearfix">
                                     <li>
+        
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_1.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_1.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/reel/DH5fl_CNdlN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_2.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_2.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/reel/DGVQ1YYtq6w/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_3.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_3.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/p/DFXewQbt4vB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_2.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_4.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/reel/DBYuJPDISDI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_3.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_5.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/reel/DBQi7zyIewL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="footer-widget__instagram-img">
-                                            <img src="assets/images/project/project_1.png" alt="">
-                                            <a href="#"><span class="icon-link"></span></a>
+                                            <img src="assets/images/project/footer_inst_6.jpg" alt="">
+                                            <a
+                                                href="https://www.instagram.com/reel/DB8Yvp3oahJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><span
+                                                    class="icon-link"></span></a>
                                         </div>
                                     </li>
                                 </ul>
@@ -530,15 +455,15 @@
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__newsletter">
                                 <div class="footer-widget__title-box">
-                                    <h3 class="footer-widget__title">Новини</h3>
+                                    <h3 class="footer-widget__title">Наші новини</h3>
                                 </div>
-                                <p class="footer-widget__newsletter-text">Підпишіться на нашу розсилку, щоб отримувати останні
-                                    оновлення та новини.
+                                <p class="footer-widget__newsletter-text">Підпишіться на нашу розсилку останніх оновлень та
+                                    новин.
                                 </p>
                                 <form class="footer-widget__newsletter-form mc-form" data-url="MC_FORM_URL"
                                     novalidate="novalidate">
                                     <div class="footer-widget__newsletter-form-input-box">
-                                        <input type="email" placeholder="Підписатись" name="EMAIL">
+                                        <input type="email" placeholder="Будь з нами" name="EMAIL">
                                         <button type="submit" class="footer-widget__newsletter-btn"><span
                                                 class="icon-paper-plane"></span></button>
                                     </div>
@@ -549,8 +474,8 @@
                                         <span class="icon-conversation"></span>
                                     </div>
                                     <div class="content">
-                                        <a href="tel:+9200368090">+92 (003) 68 - 090</a>
-                                        <p>Подзвонити</p>
+                                        <a href="tel:+380638869747">+38(063) 886 - 97 - 47</a>
+                                        <p>Зробити дзвінок</p>
                                     </div>
                                 </div>
                             </div>
@@ -562,7 +487,7 @@
                 <div class="container">
                     <div class="footer-widget__middle-inner">
                         <div class="footer-widget__logo">
-                            <a href="#"><img src="assets/images/logohire.svg" alt="">
+                            <a href="#"><img style="width: 70px; height: 70px;" src="assets/images/logohire.svg" alt="">
                                 <div class="about-three__sign-box">
                                     <p style="color: #fff;">Kids.che_</p>
                                     <!-- <span>Kids.che_</span> -->
@@ -572,23 +497,26 @@
                         <div class="footer-widget__menu-and-social">
                             <ul class="footer-widget__menu-list list-unstyled">
                                 <li>
-                                    <a href="index.html">Головна</a>
+                                    <a href="/">Головна</a>
                                 </li>
                                 <li>
-                                    <a href="about.html">Про нас</a>
+                                    <a href="/about">Про нас</a>
                                 </li>
                                 <li>
                                     <a href="#">Faq</a>
                                 </li>
                                 <li>
-                                    <a href="#">Контакти</a>
+                                    <a href="/contact">Контакти</a>
                                 </li>
                             </ul>
                             <div class="site-footer__social">
-                                <a href="#"><span class="icon-twitter"></span></a>
-                                <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                <a href="#"><span class="icon-rss"></span></a>
-                                <a href="#"><span class="icon-pinterest"></span></a>
+                                <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                                        class="icon-instagram"></span></a>
+                                <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                                        class="icon-facebook"></span></a>
+                                <a href="https://www.tiktok.com/@kids.che_?_t=ZP-8wqa6NUZFpW&_r=1"><span
+                                        class="icon-tiktok"></span></a>
+        
                             </div>
                         </div>
                     </div>
@@ -598,6 +526,8 @@
                 <div class="container">
                     <div class="site-footer__bottom-inner">
                         <p class="site-footer__bottom-text">Copyright © 2024. Всі права захищенні.</p>
+                        <p class="site-footer__bottom-text"> <a href="https://reptiloit.com" target="_blank">Розроблено в
+                                ReptiloIT</a> </p>
                     </div>
                 </div>
             </div>
@@ -615,7 +545,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-4.png" width="150"
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logohire.svg" width="150"
                         alt="" />
                     <div class="about-three__sign-box">
                         <p style="color: #fff;">Kids.che_</p>
@@ -630,22 +560,31 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@cleniq.com</a>
+                    <a href="mailto:needhelp@packageName__.com">info@kids-che.com.ua</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:+380638869747">+38(063) 886 - 97 - 47</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                            class="icon-instagram"></span></a>
+                    <a href="https://www.instagram.com/kids.che_/profilecard/?igsh=MTRheDM5NXdnY3k5dg=="><span
+                            class="icon-facebook"></span></a>
+                    <a href="https://www.tiktok.com/@kids.che_?_t=ZP-8wqa6NUZFpW&_r=1"><span class="icon-tiktok"></span></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
-
+<div class="site-footer__bottom">
+    <div class="container">
+        <div class="site-footer__bottom-inner">
+            <p class="site-footer__bottom-text">Copyright © 2024. Всі права захищенні.</p>
+            <p class="site-footer__bottom-text"> <a href="https://reptiloit.com" target="_blank">Розроблено в
+                    ReptiloIT</a> </p>
+        </div>
+    </div>
+</div>
 
 
         </div>
@@ -703,6 +642,7 @@
 
 
     <!-- template js -->
+    <script type="text/javascript" src="https://w1364281.alteg.io/widgetJS" charset="UTF-8"></script>
     <script src="assets/js/cleniq.js"></script>
 </body>
 
