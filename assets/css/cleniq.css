@@ -9764,7 +9764,7 @@ Portfolio Two
   overflow: hidden;
   z-index: 1;
   max-width: 270px;
-    max-height: 180px;
+    max-height: 300px;
 }
 
 .services-three__img::before {
@@ -10332,11 +10332,12 @@ Portfolio Two
   display: block;
   max-width: 358px;
   width: 100%;
+  padding: 30px;
 }
 
 .services-four__img img {
-  width: 360px;
-  height: 252px;
+  width: 70%;
+  height: 70%;
   object-fit: cover;
 }
 
