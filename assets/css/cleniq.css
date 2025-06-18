@@ -416,6 +416,7 @@ ul {
   padding-bottom: 0;
   margin-top: 0;
   z-index: 991;
+  
 }
 
 .bootstrap-select .dropdown-menu>li+li>a {
@@ -490,7 +491,7 @@ ul {
   background: var(--cleniq-base);
   position: fixed;
   bottom: 40px;
-  right: 40px;
+  left: 40px;
   z-index: 99;
   text-align: center;
   -webkit-transition: all 0.4s ease;
@@ -1130,6 +1131,8 @@ ul {
 
 .main-menu .main-menu__list>li.dropdown>a {
   padding-right: 16px;
+  max-height: 500px;
+    overflow-y: hidden;
 }
 
 .main-menu .main-menu__list>li.dropdown>a:after {
@@ -2335,6 +2338,10 @@ ul {
   color: var(--cleniq-white);
 }
 
+.main-menu-three .main-menu__list>li.dropdown>ul{
+  max-height: 500px;
+  overflow-y: auto;
+}
 .main-menu-three .main-menu__list>li.dropdown>a:after {
   color: var(--cleniq-white);
 }
@@ -14124,6 +14131,7 @@ Portfolio Three
   display: block;
   padding-left: 75px;
   margin-top: 45px;
+  counter-reset: faq-count;
 }
 
 .services-details__faq-box .faq-one-accrodion .accrodion {
@@ -14256,8 +14264,8 @@ Portfolio Three
   bottom: 0;
   font-size: 16px;
   font-weight: 600;
-  counter-increment: count;
-  content: "0"counter(count);
+  counter-increment: faq-count;
+  content: counter(faq-count);
   color: var(--cleniq-black);
   text-align: center;
   display: flex;
